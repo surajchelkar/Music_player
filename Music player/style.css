@@ -1,0 +1,536 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(12, 16, 39, 255);
+    font-family: sans-serif;
+    color: white;
+}
+.dual{
+    width: 300px;
+    height: 170px;
+    padding-left: 50px;
+    transition: transform .3s;
+}
+.dual:hover{
+transform: scale(1.2);
+}
+
+.word1{
+    padding-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.n1{
+    width: 100px;
+    height: 100px;
+    padding-left: 20px;
+
+
+}
+.word2{
+   font-size: small;
+    padding-left: 10px;
+    line-height: 8px;
+}
+.wig1{
+    margin-left: -10px;
+}
+
+
+.dropdown {
+    position: relative;
+  display: inline-block;
+   
+  }
+.nut1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(12, 16, 39, 255);
+    margin-left: 40px   
+    
+}
+
+i{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.time{
+    font-size: small;
+    margin-top: 2px;
+    color: grey;
+}
+.sub1{
+    margin-left: 90px;
+    margin-top: -2px;
+}
+.dropbtn {
+  background-color:rgba(12, 16, 39, 255);
+  
+  color: rgb(254, 254, 254);
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(20, 27, 65, 255);
+  min-width: 160px;
+ 
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: small;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgba(12, 16, 39, 255);}
+
+.bunch{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.cir1{
+width: 150px;
+height: 150px;
+border-radius: 90px;
+margin-left: 20px;
+}
+.cir1:hover{
+    opacity:0.5 ;
+    
+}
+
+.num1{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin-left: -10px;
+    
+}
+.circle{
+    display: flex;
+    margin-left: 40px;
+}
+
+  .btno {
+    
+    position: relative;
+   top: -90px;
+   left: 80px;
+   opacity:0;
+   color: white;
+
+  }
+  .btno:hover {
+    opacity: 1;
+    color: white;
+  }
+.name{
+    display: flex;
+   
+}
+.nm{
+    margin-top: 10px;
+    font-size: small;
+    margin-left: 135px;
+}
+
+.eng{
+    width: 120px;
+    height: 120px;
+}
+.eng:hover{
+box-shadow: 10px 10px 10px grey;
+
+}
+.os{
+    margin-bottom: 5px;
+    font-size: small;
+}
+.square1{
+    display: flex;
+    
+}
+.sq1{
+    margin-left: 50px;
+}
+.linee{
+    margin-top: 30px;
+    display: flex;
+}
+
+
+.oss{
+    margin-left: 50px;
+    font-size: small;
+}
+.temp1
+{
+
+height: 85vh;
+width: 72%;
+scrollbar-width: none;
+overflow-x: hidden;
+}
+
+.n1{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nn1{
+    margin-left: 20px;
+    font-size: small;
+}
+.hei{
+    line-height: 5px;
+    margin-right: 5px;
+}
+
+.card{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(20, 27, 65, 255);
+    width: 400px;
+    height: 60px;
+}
+.card:hover{
+    background-color: grey;
+}
+.let{
+    font-size: small;
+    margin-right: -50px;
+    
+}
+.temp2
+{
+    margin-top: 30px;
+    height: 85vh;
+    width: 25%;
+    scrollbar-width: none;
+    overflow-x: hidden;
+}
+
+.stick{
+ 
+    position: relative;
+    margin-right: -55px;
+}
+
+
+.whole{
+    display: flex;
+}
+
+/* navigation*/
+.nav{
+    background-color: rgba(12, 16, 39, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px;
+   margin-bottom: 10px;
+}
+.navimg{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.app{
+    font-size: small; 
+    margin-left: -150px;
+    line-height: 0px;
+    
+}
+.profile{
+    width:80px;
+    height:80px;
+    border-radius: 35px;
+    margin-right: 80px;
+}
+.sea{
+    width: 400px;
+    height: 35px;
+    border-radius: 25px;
+   border: none; 
+   background-color: rgba(20, 27, 65, 255);
+   padding: 0px 15px;
+}
+::placeholder{
+    color: white;
+    padding-left: 20px;
+}
+
+
+.bell{
+    font-size: 20px;
+    margin-left: -180px;
+}
+
+.fotter1{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    margin-right: 30px;
+    margin-top: 10px;
+
+}
+
+.foot{
+    width: 50px;
+    height: 50px;
+}
+
+.foottext1{
+    margin-left: 10px;
+    line-height: 6px;
+    font-size: small;
+}
+
+.audio{
+    width: 82%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+/* navigation res*/
+@media screen and (max-width: 900px) {
+    .nav{
+        background-color: rgba(12, 16, 39, 255);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:10px;
+       margin-bottom: 10px;
+    }
+    .navimg{
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+        border-radius: 10px;
+    }
+    .app{
+        font-size: 7px; 
+        margin-left: -20px;
+        line-height: 0px;
+        
+    }
+    .favs{
+        font-size: 10px; 
+    }
+    .profile{
+        width:30px;
+        height:30px;
+        border-radius: 35px;
+        margin-right: 10px;
+    }
+    .sea{
+        width: 100px;
+        height: 25px;
+        border-radius: 25px;
+       border: none; 
+       background-color: rgba(20, 27, 65, 255);
+       padding: 0px 15px;
+    }
+    ::placeholder{
+        color: white;
+        padding-left: 20px;
+    }
+    
+    .bell{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+/* three faces*/
+    .dual{
+        width: 220px;
+        height: 140px;
+        margin-left: 20px;
+        transition: transform .3s;
+    }
+
+/* nuts */
+.bunch{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.word2{
+    font-size: small;
+     line-height: 8px;
+     margin-left: 5px;
+   
+ }
+ .sub1{
+    margin-left: 70px;
+    margin-top: -2px;
+}
+.time{
+    font-size: small;
+    margin-top: 2px;
+    color: grey;
+    margin-right:-4px ;
+    
+   
+}
+ .nut1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(12, 16, 39, 255);
+    margin-left: -7px;   
+    
+}
+.wig1{
+    margin-left: -10px;
+}
+.n1{
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+/* 6 girls singer*/
+
+.cir1{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 10px;
+    }
+.name{
+        display: flex;
+       margin-left: 30px;
+    }
+.nm{
+        margin-top: 5px;
+        font-size: 10px;
+        margin-left: 35px;
+    }
+
+/* 6 square 1 & 2 */
+.square1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.eng{
+    width: 40px;
+    height: 40px;
+}
+.sq1{
+    margin-left: 15px;
+}
+.os{
+    margin-bottom: 5px;
+    font-size: small;
+}
+/* linee */
+.linee{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.whole{
+    display: flex;
+    flex-direction: column;
+}
+
+.temp1
+{
+
+width: 100%;
+
+}
+.temp2
+{  
+    height: 85vh;
+    width: 100%;
+margin-left: 8px;
+}
+
+.fotter{
+    position: sticky;
+}
+
+.fotter1{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+  .audio{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.foot{
+    margin-top: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+.foottext1{
+    margin-left: 10px;
+    line-height: 12px;
+    font-size: 10px;
+}
+/*dropdown menu */
+.dropbtn {
+    background-color:rgba(12, 16, 39, 255);
+    color: rgb(254, 254, 254);
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(20, 27, 65, 255);
+    min-width: 70px;
+   
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: small;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: rgba(12, 16, 39, 255);}
+}

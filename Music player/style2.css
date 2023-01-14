@@ -1,0 +1,467 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(12, 16, 39, 255);
+    font-family: sans-serif;
+   color: white;
+}
+
+.taylor{
+   width: 290px;
+   height: 310px; 
+}
+
+.bar{
+    width: 160px;
+    height: 40px;
+    background-image: linear-gradient(to right, blue,purple);
+    align-items: center;
+    z-index: 2;
+ 
+}
+.play{
+  margin-left: 50px;
+  padding-top: 10px;
+}
+
+.tay{
+  margin-right: 50px;
+}
+.card
+{
+  width: 950px;
+  height: 310px;
+  background-color: rgba(20, 27, 65, 225);
+  display: flex;
+  margin-top: 10px;
+  margin-left: 100px;
+ 
+
+}
+.easy{
+font-size: small;
+color: grey;
+}
+
+.bar2{
+  font-size: small;
+}
+
+.n1{
+  width: 100px;
+  height: 100px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.word2{
+ font-size: small;
+  padding-left: 10px;
+  line-height: 8px;
+}
+.wig1{
+  margin-left: -10px;
+}
+
+
+.nut1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(12, 16, 39, 255);
+  margin-left: 40px;   
+}
+i{
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.time{
+  font-size: small;
+  margin-top: 2px;
+  color: grey;
+}
+.sub1{
+  margin-left: 180px;
+  margin-top: -2px;
+}
+.bunch{
+  margin-top: 10px;
+  margin-bottom:10px;
+  margin-left: 50px;
+
+}
+.res{
+  margin-left: 100px;
+  
+
+}
+.rec{
+  margin-left: 50px;
+}
+.n1l{
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.nn1{
+  margin-left: 20px;
+  font-size: small;
+  margin-top: 25px;
+}
+.hei{
+  line-height: 5px;
+  margin-right: 5px;
+  margin-top: 8px;
+}
+
+.let{
+  font-size: small;
+  margin-left: 10px;
+  
+}
+
+.strip{
+  display: flex;
+  background-color: rgba(20, 27, 65, 225);
+  width: 390px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  font-size: small;
+}
+.strip:hover{
+  background-color: grey;
+}
+.sim{
+margin-left: 100px;
+}
+
+.tape{
+  display: flex;
+  background-color: rgba(20, 27, 65, 225);
+  width: 950px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+.tape:hover{
+  background-color: grey;
+}
+.hrt{
+  margin-left: 660px;
+  margin-top: 8px;
+}
+i:hover{
+  color: red;
+}
+.main{
+  display: flex;
+  margin-left: -30px;
+  
+}
+.tapes1{
+  margin-top: 20px;
+  height: 40vh;
+  width: 100%;
+  scrollbar-width: none;
+  overflow-x: hidden;
+}
+
+.sys1{
+ 
+  margin-bottom: 10px;
+  height: 38vh;
+  width: 100%;
+  scrollbar-width: none;
+  overflow-x: hidden;
+}
+
+.sys2{
+ margin-top: 20px;
+  height: 46vh;
+  width: 100%;
+  scrollbar-width: none;
+  overflow-x: hidden;
+}
+
+.nav{
+  background-color: rgba(12, 16, 39, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:10px;
+ margin-bottom: 10px;
+}
+.navimg{
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.app{
+  font-size: small; 
+  margin-left: -150px;
+  line-height: 0px;
+  
+}
+.profile{
+  width:80px;
+  height:80px;
+  border-radius: 35px;
+  margin-right: 80px;
+}
+.sea{
+  width: 400px;
+  height: 35px;
+  border-radius: 25px;
+ border: none; 
+ background-color: rgba(20, 27, 65, 255);
+ padding: 0px 15px;
+}
+::placeholder{
+  color: white;
+  padding-left: 20px;
+}
+.bell{
+  font-size: 20px;
+  margin-left: -180px;
+}
+
+.fotter1{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  margin-right: 30px;
+  margin-top: 10px;
+
+}
+
+.foot{
+  width: 50px;
+  height: 50px;
+}
+
+.foottext1{
+  margin-left: 10px;
+  line-height: 6px;
+  font-size: small;
+}
+
+.audio{
+  width: 82%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width :900px) {
+  .nav{
+    background-color: rgba(12, 16, 39, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px;
+   margin-bottom: 10px;
+}
+.navimg{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.app{
+    font-size: 7px; 
+    margin-left: -20px;
+    line-height: 0px;
+    
+}
+.favs{
+    font-size: 10px; 
+}
+.profile{
+    width:30px;
+    height:30px;
+    border-radius: 35px;
+    margin-right: 10px;
+}
+.sea{
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+   border: none; 
+   background-color: rgba(20, 27, 65, 255);
+   padding: 0px 15px;
+}
+::placeholder{
+    color: white;
+    padding-left: 20px;
+}
+
+.bell{
+    font-size: 15px;
+    margin-left: -40px;
+}
+
+
+.tay{
+  margin-right: 20px;
+}
+.card
+{
+  width: 400px;
+  height: 250px;
+  background-color: rgba(20, 27, 65, 225);
+  display: flex;
+  margin-top: 10px;
+  margin-left: 40px;
+ 
+}
+
+.taylor{
+  width: 170px;
+  height: 190px; 
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.easy{
+  font-size: 8px;
+  color: grey;
+  display: none;
+  }
+  
+  .bar2{
+    font-size: 10px;
+  }
+  .bar{
+    width: 100px;
+    height: 30px;
+    background-image: linear-gradient(to right, blue,purple);
+    align-items: center;
+    z-index: 2;
+ 
+}
+.play{
+  margin-left: 25px;
+  padding-top: 10px;
+  font-size: 10px;
+}
+.tape{
+  display: flex;
+  background-color: rgba(20, 27, 65, 225);
+  width: 400px;
+  margin-left: 35px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+.res{
+ margin-left: 50px;
+padding-left: 20px;
+}
+.hrt{
+  margin-left: 140px;
+  margin-top: 8px;
+}
+.hei{
+  line-height: 5px;
+  margin-right: 5px;
+  margin-top: 8px;
+}
+.tapes1{
+  margin-top: 30px;
+  height: 40vh;
+  width: 100%;
+ 
+}
+
+.sys1{
+ 
+  margin-bottom: 10px;
+  height: 38vh;
+  width: 100%;
+  
+}
+
+.sys2{
+ margin-top: 20px;
+  height: 100vh;
+  width: 100%;
+  margin-left: 15px; 
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  margin-left: -30px;
+  
+}
+
+.strip{
+  display: flex;
+  background-color: rgba(20, 27, 65, 225);
+  width: 350px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  font-size: small;
+}
+
+.wig1{
+  margin-left: -10px;
+}
+
+
+.nut1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(12, 16, 39, 255);
+  margin-left: 20px;   
+}
+
+.n1{
+  width: 80px;
+  height: 80px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.sub1{
+  margin-left: 160px;
+  margin-top: -2px;
+}
+
+.sim{
+  margin-left: 80px;
+  }
+
+ 
+.fotter{
+  position: sticky;
+}
+
+.fotter1{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+.audio{
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.foot{
+  margin-top: 8px;
+  width: 50px;
+  height: 50px;
+}
+
+.foottext1{
+  margin-left: 10px;
+  line-height: 12px;
+  font-size: 10px;
+}
+
+
+}
